@@ -36,7 +36,10 @@
     <ClCompile Include="CODE\10769_행복한지 슬픈지.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="CODE\FileName.c">
+    <ClCompile Include="CODE\1059_좋은 구간.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1009_분산처리.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
