@@ -42,5 +42,17 @@
     <ClCompile Include="1009_분산처리.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="1049_기타줄.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="10845_큐.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1929_소수구하기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1302_베스트셀러.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
