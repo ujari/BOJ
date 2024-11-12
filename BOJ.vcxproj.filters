@@ -54,5 +54,11 @@
     <ClCompile Include="1302_베스트셀러.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="3048_개미.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2936_채식주의자.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
