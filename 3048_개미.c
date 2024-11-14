@@ -1,43 +1,76 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
-int num1, num2;
-void print(char* n1, char* n2)
-{
-	for (int i = 0; i < num1; i++)
-	{
-		printf('%c', n1[i]);
-	}
-	for (int i = 0; i < num2; i++)
-	{
-		printf('%c', n2[i]);
-	}
-}
+
+typedef struct {
+	char name[100];
+	int g[100];
+}ant;
+
 
 int main()
 {
-	
-	scanf("%d %d", &num1, &num2);
 
-	char* n1 = (char*)malloc(sizeof(char) * num1);
-	char* n2 = (char*)malloc(sizeof(char) * num2);
+	int num1, num2;
+
+	scanf("%d %d", &num1, &num2);
+	char* temp = (char*)malloc(sizeof(char) * num1 + 1);
+	ant n;
+	//입력
+	scanf("%s", temp);
+	for(int i=0;i<num1/2;i++)
+	{
+		char t = temp[num1-1-i];
+		temp[num1 - 1 - i] = temp[i];
+		temp[i] = t;
+	}
+
+	strcpy(n.name, temp);
+
+	for (int i = 0; i < num1; i++)
+	{
+		n.g[i] = 0;
+	}
+
+	scanf("%s",temp);
+
+
+	strcpy(&n.name[num1], temp);
+	
+	for (int i = num1; i < num1+num2; i++)
+	{
+		n.g[i] = 1;
+	}
 
 	int t;
 	scanf("%d", &t);
 
-	if (t == 0)
+	int num=num1+num2;
+	for (int i = 0; i < t; i++)
 	{
-		print(n1, n2);
-	}
-	int i = 0;
-	while (i<t)
-	{
-		for (i; i <= 0; i++)
+		for (int j = 0; j <= num-2; j++)
 		{
-
+			if (n.g[j] < n.g[j + 1])
+			{
+				char t_name= n.name[j + 1];
+				int t_g = n.g[j + 1];
+				
+				n.g[j + 1] = n.g[j];
+				n.name[j + 1] = n.name[j];
+				
+				n.name[j] = t_name;
+				n.g[j] = t_g;
+				j++;
+			}
 		}
 	}
 
+	//출력
+	printf("%s", n.name);
 	return 0;
 }
+
+
+
