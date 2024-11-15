@@ -60,5 +60,8 @@
     <ClCompile Include="2936_채식주의자.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10988_팰린드롬인지 확인하기.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
