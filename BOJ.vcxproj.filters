@@ -63,5 +63,11 @@
     <ClCompile Include="10988_팰린드롬인지 확인하기.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="2847_게임을만든 동준이.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="1157_단어공부.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
