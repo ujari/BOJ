@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="소스 파일">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
     <Filter Include="헤더 파일">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
@@ -15,62 +11,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CODE\2839_설탕 배달.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1009_분산처리.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1049_기타줄.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1059_좋은 구간.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1157_단어공부.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1302_베스트셀러.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1417_국회의원 선거.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1436_영화감독 숌.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1817_짐챙기는숌.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1929_소수구하기.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\1940_주몽.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\2810_컵홀더.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\2847_게임을만든 동준이.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\2936_채식주의자.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\3048_개미.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\3135_라디오.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\10769_행복한지 슬픈지.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\10845_큐.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="CODE\10988_팰린드롬인지 확인하기.c">
-      <Filter>소스 파일</Filter>
+    <ClCompile Include="11399_ATM.cpp">
+      <Filter>리소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
