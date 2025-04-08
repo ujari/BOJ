@@ -11,6 +11,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2164_카드 2.c" />
+    <ClCompile Include="10773_제로.c" />
+    <ClCompile Include="2164_카드 2.c">
+      <Filter>리소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
