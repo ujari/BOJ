@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int bingo[25][25];
+int bingo[5][5];
 int bingoCou = 0;
 void search(int i,int j)
 {
