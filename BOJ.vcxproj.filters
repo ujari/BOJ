@@ -11,6 +11,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2578_빙고.c" />
+    <ClCompile Include="1026_보물.c" />
   </ItemGroup>
 </Project>
